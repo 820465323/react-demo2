@@ -1,0 +1,4 @@
+生命周期函数指在某一时刻组件会自动调用执行的函数,仅在第一次执行
+componentWillMount:组件即将被挂载时执行，挂载之前
+componentDidMount:组件被挂载之后执行，挂载之后
+shouldComponentUpdate:组件被更新之前执行，更新之前

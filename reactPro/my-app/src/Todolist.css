@@ -1,0 +1,53 @@
+tr{
+    text-align: center;
+}
+td{
+    text-align: center;
+    width: 50px;
+}
+.table-body{
+    margin-top: 25%;
+    border: 1px solid blue;
+}
+.table-body>tbody>tr{
+    border: 1px solid blue;
+}
+.table-body>tbody>tr>td{
+    border: 1px solid blue;
+}
+.table-body2{
+    border: 1px solid orange;
+}
+.table-body2>tbody>tr{
+    border: 1px solid orange;
+}
+.table-body2>tbody>tr>td{
+    border: 1px solid orange;
+}
+
+.table-one{
+    margin-top: 10%;
+    border: 1px solid black;
+    display: block;
+    vertical-align: middle;
+}
+.table-one>tbody>tr{
+    border: 1px solid black;
+}
+.table-one>tbody>tr>td{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.img-draw{
+    width: 20px;
+    height: 20px;
+}
+.div-table-body{
+    display: inline-block;;
+    vertical-align: middle;
+}
+.div-table-one{
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid red;
+}
