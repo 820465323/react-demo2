@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>div{ border:1px solid #DDD; padding:20px; margin:10px;}</style>
+</head>
+<body>
+
+<div class="demo">
+    <div class="div1">div1</div>
+    <div class="div2">div2</div>
+
+    <div class="div3">div3</div>
+    <div class="div4">div4</div>
+</div>
+
+<button id="button1">调换位置</button>
+<button id="button2">调换位置2</button>
+<button id="button3">调换位置3</button>
+</body>
+<script src="../../../jquery-min.js"></script>
+<script>
+            //hasClass:检查被选元素是否包含指定的 class
+            //pre:获得匹配元素集合中每个元素紧邻的前一个同胞元素
+            //clone:生成被选元素的副本，包含子节点、文本和属性
+            //appendTo:在被选元素的结尾（仍然在内部）插入指定内容
+            //eq:将匹配元素集缩减值指定 index 上的一个
+            //remove:移除被选元素，包括所有文本和子节点
+            $(function(){
+                $('#button1').click(function(){
+                    //克隆一个该div放入demo中,并删除首位元素
+                        $('.div1').clone().appendTo('.demo');
+                        $('.div1').eq(0).remove();
+                });
+                $('#button2').click(function(){
+                        $('.div1').clone().appendTo('.demo');
+                        $('.div2').clone().appendTo('.demo');
+                        $('.div1').eq(0).remove();
+                        $('.div2').eq(0).remove();
+                });
+                $('#button3').click(function(){
+                    $('.div1').clone().appendTo('.demo');
+                    $('.div2').clone().appendTo('.demo');
+                    $('.div3').clone().appendTo('.demo');
+                    $('.div1').eq(0).remove();
+                    $('.div2').eq(0).remove();
+                    $('.div3').eq(0).remove();
+                });
+            });
+
+            let arr = [1,2,4];
+            console.log(arr);
+            setTimeout(()=>{
+                arr.splice(2,0,3);
+                console.log(arr);
+            },1000);
+
+</script>
+</html>
