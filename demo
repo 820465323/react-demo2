@@ -1,0 +1,23 @@
+http://www.jq22.com/daima
+https://www.microsoft.com/en-us/software-download/windows10  win10系统下载
+https://www.ijf.org/wrl_olympic
+http://www.faviconico.org/favicon （favicion图标转换）
+https://www.jb51.net/tools/cssZip.htm    CSS压缩
+https://jsmin.51240.com/    JS普通压缩
+http://tool.chinaz.com/js.aspx   JS混淆加密压缩
+https://www.imooc.com/course/list?c=reactjs&is_easy=2 react学习网站
+https://www.imooc.com/video/9819 react入门
+https://pan.baidu.com/s/1d146gJjvZ8zVQDpO9k0qaA  React基础教学视频
+两个独立USB口
+
+100%：此时浏览器宽度1366此时浏览器高度695
+90%：此时浏览器宽度1517此时浏览器高度772
+80%：此时浏览器宽度1707此时浏览器高度868
+75%：此时浏览器宽度1821此时浏览器高度926
+67%:此时浏览器宽度2049此时浏览器高度1042
+
+netstat -nap | grep node
+kill -9 32506
+git bash 关联远程仓库 git remote add origin git@github.com
+nohup npm start &
+java -verbose
